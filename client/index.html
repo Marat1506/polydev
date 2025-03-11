@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <div class="form-container">
+      <h2>Форма обратной связи</h2>
+      <form class="form">
+          <label for="name">Имя:</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="phone">Телефон:</label>
+          <input type="text" id="phone" name="phone" required>
+
+          <label for="project_type">Тип проекта:</label>
+          <input type="text" id="project_type" name="project_type" required>
+
+          <label for="project_description">Описание проекта:</label>
+          <textarea id="project_description" name="project_description" required></textarea>
+
+          <label for="budget_min">Минимальный бюджет:</label>
+          <input type="number" id="budget_min" name="budget_min" required>
+
+          <label for="budget_max">Максимальный бюджет:</label>
+          <input type="number" id="budget_max" name="budget_max" required>
+
+          <button class="button" type="submit">Отправить</button>
+      </form>
+  </div>
+
+  <script type="module" src="script.js"></script>
+  </body>
+</html>
